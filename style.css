@@ -61,7 +61,8 @@ button {
 }
 
 .hero-image {
-    min-width: 50%;
+    width: 50%;
+    object-fit: cover;
 }
 
 a {
@@ -97,10 +98,11 @@ a {
 }
 
 .small-img {
-    min-height: 180px;
-    min-width: 180px;
+    height: 180px;
+    width: 180px;
     border: solid 4px #3882F6;
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .img-description {
